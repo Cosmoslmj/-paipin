@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>个人中心-收货地址</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- Custom Theme files -->
+    <!--webfont-->
+    <link href='http://fonts.useso.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+
+<div class="mask" id="pp_mask">
+    <div class="addbox" id="addbox">
+        <i>添加您的收货地址</i>
+        <span class="glyphicon glyphicon-remove" id="close_box" aria-hidden="true"></span>
+        <div class="container-fluid">
+            <div class="row">
+                <form>
+                    <div class="form-group addname">
+                        <label for="addname"><em>*</em>收件人:</label>
+                        <input type="addname" class="form-control"  placeholder="真实姓名">
+                    </div>
+                    <div class="form-group aer h5">
+                        <label for="adress">
+                            <em>*</em>所在地区：
+                        </label>
+                        <br>
+                        <select>
+                            <option value="请选择">请选择</option>
+                            <option value="saab">北京</option>
+                            <option value="opel">上海</option>
+                            <option value="audi">天津</option>
+                            <option value="audi">重庆</option>
+                            <option value="audi">河北</option>
+                            <option value="audi">山西</option>
+                            <option value="opel">河南</option>
+                            <option value="audi">辽宁</option>
+                            <option value="audi">吉林</option>
+                            <option value="audi">黑龙江</option>
+                            <option value="audi">内蒙古</option>
+                            <option value="audi">江苏</option>
+                            <option value="audi">山东</option>
+                            <option value="opel">安徽</option>
+                            <option value="audi">浙江</option>
+                            <option value="audi">福建</option>
+                            <option value="audi">湖北</option>
+                            <option value="audi">湖南</option>
+                            <option value="audi">广东</option>
+                            <option value="audi">广西</option>
+                            <option value="audi">江西</option>
+                            <option value="audi">四川</option>
+                            <option value="audi">海南</option>
+                            <option value="opel">贵州</option>
+                            <option value="audi">云南</option>
+                            <option value="audi">西藏</option>
+                            <option value="audi">陕西</option>
+                            <option value="audi">甘肃</option>
+                            <option value="audi">青海</option>
+                            <option value="audi">宁夏</option>
+                            <option value="audi">新疆</option>
+                            <option value="audi">台湾</option>
+                            <option value="opel">港澳</option>
+                            <option value="audi">其他</option>
+
+                        </select>
+                        <select>
+                            <option value="请选择">请选择</option>
+                        </select>
+                        <select>
+                            <option value="请选择">请选择</option>
+                        </select>
+                    </div>
+                    <div class="form-group addname h5">
+                        <label for="adds"><em>*</em>详细地址:</label>
+                        <input type="adds" class="form-control"  placeholder="详细地址">
+                    </div>
+
+                    <div class="form-group h5 editel">
+                        <label for="editel"><em>*</em>联系电话:</label>
+                        <input type="editel" class="form-control"  placeholder="联系电话">
+                    </div>
+
+                    <input class="btn btn-default edibtn" type="submit" value="保存信息">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload=function(){
+        var btn_add=document.getElementById("btn_add");
+        var pp_mask=document.getElementById("pp_mask");
+        var addbox = document.getElementById("addbox");
+        btn_add.onclick=function(){
+            pp_mask.style.display="block";
+            addbox.style.display="block";
+        }
+        var close_box = document.getElementById("close_box");
+        close_box.onclick=function(){
+            pp_mask.style.display="none";
+            addbox.style.display="none";
+        }
+    }
+</script>
+
+<div class="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt=""/></a>
+            </div>
+            <ul class="shopping_grid">
+                <a href="register.html"><li>注册</li></a>
+                <a href="login.html"><li>欢迎登陆</li></a>
+                <a href="remindNull.html"><li><span class="m_1">我的提醒</span>&nbsp;&nbsp;(0) &nbsp;<img src="images/bag.png" alt=""/> </li></a>
+                <div class="clearfix"> </div>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="h_menu4"><!-- start h_menu4 -->
+        <div class="container">
+            <a class="toggleMenu" href="#">拍品</a>
+            <ul class="nav">
+                <li class="active"><a href="index.html" data-hover="Home">首页</a></li>
+                <li><a href="about.html" data-hover="About Us">关于我们</a></li>
+                <li><a href="help.html" data-hover="Careers">帮助中心</a></li>
+                <li><a href="contact.html" data-hover="Contact Us">留言建议</a></li>
+                <li><a href="centre.html" data-hover="Company Profile">个人中心</a></li>
+                <li><a href="myAuction.html" data-hover="Company Registration">我的拍卖</a></li>
+                <li><a href="wishlist.html" data-hover="Wish List">我的收藏</a></li>
+                <li><a href="auctionNull.html" data-hover="Wish List">我的竞拍</a></li>
+            </ul>
+            <script type="text/javascript" src="js/nav.js"></script>
+        </div><!-- end h_menu4 -->
+    </div>
+</div>
+<div class="column_center">
+    <div class="container">
+        <div class="search">
+            <div class="stay">搜索拍品</div>
+            <div class="stay_right">
+                <input type="text" value="" placeholder="搜到好货" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+                <input type="submit" value="">
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="about">
+    <div class="container">
+        <div class="col-md-2 sidebar_box">
+            <div class="sidebar">
+                <div class="menu_box">
+                    <h3 class="menu_head">设置</h3>
+                    <ul class="menu">
+                        <li class="item1"><a href="centre.html"><img class="arrow-img2" src="images/icon_cen1.png" alt=""/> 个人信息</a></li>
+                        <li class="item1"><a href="authentication.html"><img class="arrow-img2" src="images/icon_cen2.png" alt=""/> 身份验证</a></li>
+                        <li class="item1"><a href="address.html"><img class="arrow-img2" src="images/icon_cen3.png" alt=""/> 收货地址</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen4.png" alt=""/> 企业发票</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen5.png" alt=""/> 我的客服</a></li>
+                        </li>
+
+                        <h3 class="menu_head">动态</h3>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen6.png" alt=""/> 发布拍品</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen7.png" alt=""/> 我的留言</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen8.png" alt=""/> 我的拍品</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen9.png" alt=""/> 我的竞品</a></li>
+                        <li class="item1"><a href="#"><img class="arrow-img2" src="images/icon_cen10.png" alt=""/> 我的拍友</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--&lt;!&ndash;initiate accordion&ndash;&gt;-->
+                <!--<script type="text/javascript">-->
+                <!--$(function() {-->
+                <!--var menu_ul = $('.menu > li > ul'),-->
+                <!--menu_a  = $('.menu > li > a');-->
+                <!--menu_ul.hide();-->
+                <!--menu_a.click(function(e) {-->
+                <!--e.preventDefault();-->
+                <!--if(!$(this).hasClass('active')) {-->
+                <!--menu_a.removeClass('active');-->
+                <!--menu_ul.filter(':visible').slideUp('normal');-->
+                <!--$(this).addClass('active').next().stop(true,true).slideDown('normal');-->
+                <!--} else {-->
+                <!--$(this).removeClass('active');-->
+                <!--$(this).next().stop(true,true).slideUp('normal');-->
+                <!--}-->
+                <!--});-->
+
+                <!--});-->
+                <!--</script>-->
+            </div>
+
+
+
+        </div>
+        <div class="col-md-9 single_right bgc2">
+            <div class="single_top">
+                <div class="single_grid" id="peoInfo">
+                    <div class="register">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <form>
+                                    <div class="register-top-grid peoInfo">
+                                        <h3>收货地址</h3>
+
+                                        <table class="table">
+                                            <a href="javascript:;" id="btn_add" class="btn btn-primary btn-add h10">
+                                                新增收货地址
+                                            </a>
+
+                                            <p><span>您已有<i></i><em>4</em>个收货地址，还可以新增<i></i><em>16</em>个</span></p>
+                                            <thead>
+                                            <tr>
+                                                <th>收货人</th>
+                                                <th>收货地址</th>
+                                                <th>联系电话</th>
+                                                <th>修改</th>
+
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr class="success">
+                                                <td>皮皮坤</td>
+                                                <td>广东省深圳市宝安区</td>
+                                                <td>16374856798</td>
+                                                <td><input type="radio" name="sex1"  value="0">
+                                                    修改
+                                                    <input type="radio" name="sex1"  value="1">
+                                                    删除</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>晓东</td>
+                                                <td>广西省桂林市桂林理工大学</td>
+                                                <td>12465784597</td>
+                                                <td><input type="radio" name="sex2"  value="0">
+                                                    修改
+                                                    <input type="radio" name="sex2"  value="1">
+                                                    删除</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>晓东</td>
+                                                <td>广西省桂林市桂林理工大学</td>
+                                                <td>12465784597</td>
+                                                <td><input type="radio" name="sex3"  value="0">
+                                                    修改
+                                                    <input type="radio" name="sex3"  value="1">
+                                                    删除</td>
+                                            </tr>
+                                            <tr class="active">
+                                                <td>晓东</td>
+                                                <td>广西省桂林市桂林理工大学</td>
+                                                <td>12465784597</td>
+                                                <td><input type="radio" name="sex4"  value="0">
+                                                    修改
+                                                    <input type="radio" name="sex4"  value="1">
+                                                    删除</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <div class="register-but peoInfo">
+                                        <form>
+                                            <button type="submit" class="btn btn-primary">全选</button>
+                                            <button type="reset" class="btn btn-default btn-primary">删除</button>
+                                            <div class="clearfix"> </div>
+                                        </form>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="footer_bg">
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 f_grid1">
+            <h3>关于</h3>
+            <a href="#"><img src="images/logo2.png" alt=""/></a>
+            <p>忠诚可以简练地定义为对不可能的情况的一种不合逻辑的信仰。 —— 门肯</p>
+        </div>
+        <div class="col-md-3 f_grid1 f_grid2">
+            <h3>关注我们</h3>
+            <ul class="social">
+                <li><a href=""> <i class="fb"> </i><p class="m_3">QQ</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="tw"> </i><p class="m_3">微信</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="google"> </i><p class="m_3">微博</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="instagram"> </i><p class="m_3">qq空间</p><div class="clearfix"> </div></a></li>
+            </ul>
+        </div>
+        <div class="col-md-6 f_grid3">
+            <h3>联系方式</h3>
+            <ul class="list">
+                <li><p>手机客服 : (+86)18309876567</p></li>
+                <li><p>传真 : 0755-6785346</p></li>
+                <li><p>电子邮件 : <a href="mailto:120163077@qq.com"> 120163077@qq.com</a></p></li>
+            </ul>
+            <ul class="list1">
+                <li><p>我渴望随着命运指引的方向，心平气和地、没有争吵、悔恨、羡慕，笔直走完人生旅途。 —— 魏尔伦</p></li>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<div class="footer_bottom">
+    <div class="container">
+        <div class="cssmenu">
+            <ul>
+                <li class="active"><a href="login.html">隐私政策</a></li> .
+                <li><a href="checkout.html">服务条款</a></li> .
+                <li><a href="checkout.html">我的拍卖</a></li> .
+                <li><a href="login.html">联系我们</a></li> .
+                <li><a href="register.html">支持和常见问题解答</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Copyright &copy; 2017.<a target="_self" href="wishlist.html">返回顶部</a></p>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!--<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>-->
+</body>
+</html>

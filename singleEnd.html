@@ -1,0 +1,532 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>商品详情-已结束</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Fashionpress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- Custom Theme files -->
+    <!--webfont-->
+    <link href='http://fonts.useso.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/hover_pack.js"></script>
+    <link rel="stylesheet" href="css/etalage.css">
+    <script src="js/jquery.etalage.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($){
+
+            $('#etalage').etalage({
+                thumb_image_width: 300,
+                thumb_image_height: 400,
+                source_image_width: 900,
+                source_image_height: 1200,
+                show_hint: true,
+                click_callback: function(image_anchor, instance_id){
+                    alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+                }
+            });
+
+        });
+    </script>
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true   // 100% fit in a container
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div class="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo2.png" alt=""/></a>
+            </div>
+            <ul class="shopping_grid">
+                <a href="register.html"><li>注册</li></a>
+                <a href="login.html"><li>欢迎登陆</li></a>
+                <a href="remindNull.html"><li><span class="m_1">我的提醒</span>&nbsp;&nbsp;(0) &nbsp;<img src="images/bag.png" alt=""/> </li></a>
+                <div class="clearfix"> </div>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="h_menu4"><!-- start h_menu4 -->
+        <div class="container">
+            <a class="toggleMenu" href="#">拍品</a>
+            <ul class="nav">
+                <li class="active"><a href="index.html" data-hover="Home">首页</a></li>
+                <li><a href="about.html" data-hover="About Us">关于我们</a></li>
+                <li><a href="help.html" data-hover="Careers">帮助中心</a></li>
+                <li><a href="contact.html" data-hover="Contact Us">留言建议</a></li>
+                <li><a href="centre.html" data-hover="Company Profile">个人中心</a></li>
+                <li><a href="myAuction.html" data-hover="Company Registration">我的拍卖</a></li>
+                <li><a href="wishlist.html" data-hover="Wish List">我的收藏</a></li>
+                <li><a href="auction.html" data-hover="Wish List">我的竞拍</a></li>
+            </ul>
+            <script type="text/javascript" src="js/nav.js"></script>
+        </div><!-- end h_menu4 -->
+    </div>
+</div>
+<div class="column_center">
+    <div class="container">
+        <div class="search">
+            <div class="stay">搜索拍品</div>
+            <div class="stay_right">
+                <input type="text" value="" placeholder="搜到好货" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+                <input type="submit" value="">
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="main">
+    <div class="content_top">
+        <div class="container">
+            <div class="col-md-3 sidebar_box">
+                <div class="sidebar">
+                    <div class="menu_box">
+                        <h3 class="menu_head">全部商品分类</h3>
+                        <ul class="menu">
+                            <li class="item1"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/> 珠宝玉器</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">翡翠 </a></li>
+                                    <li class="subitem2"><a href="#">和田玉 </a></li>
+                                    <li class="subitem3"><a href="#">其它玉石 </a></li>
+                                    <li class="subitem3"><a href="#">水晶 </a></li>
+                                    <li class="subitem3"><a href="#">铂金 </a></li>
+                                </ul>
+                            </li>
+                            <li class="item2"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>文玩收藏</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">六艺文房 </a></li>
+                                    <li class="subitem2"><a href="#">邮票、烟具、雕刻 </a></li>
+                                    <li class="subitem3"><a href="#">趣味藏品 </a></li>
+                                </ul>
+                            </li>
+                            <li class="item3"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>紫砂陶瓷</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">陶瓷 </a></li>
+                                    <li class="subitem2"><a href="#">瓷器 </a></li>
+                                    <li class="subitem3"><a href="#">紫砂</a></li>
+                                </ul>
+                            </li>
+                            <li class="item4"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>茶酒滋补</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">名酒名茶 </a></li>
+                                    <li class="subitem2"><a href="#">酒具</a></li>
+                                    <li class="subitem3"><a href="#">滋补营养品 </a></li>
+                                </ul>
+                            </li>
+                            <li class="item5"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>艺术品</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">水墨 </a></li>
+                                    <li class="subitem2"><a href="#">画壁石雕 </a></li>
+                                    <li class="subitem3"><a href="#">其他s </a></li>
+                                </ul>
+                            </li>
+                            <li class="item6"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>工艺品</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">Cute Kittens </a></li>
+                                    <li class="subitem2"><a href="#">Strange Stuff </a></li>
+                                    <li class="subitem3"><a href="#">Automatic Fails </a></li>
+                                </ul>
+                            </li>
+                            <li class="item7"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>奢侈品</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">包、表、香水</a></li>
+                                    <li class="subitem2"><a href="#">笔、眼镜、配饰 </a></li>
+                                    <li class="subitem3"><a href="#">游艇、烟灰缸、打火机 </a></li>
+                                </ul>
+                            </li>
+                            <li class="item8"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>房产</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">二手房 </a></li>
+                                    <li class="subitem2"><a href="#">新房产</a></li>
+                                    <li class="subitem3"><a href="#">短租 </a></li>
+                                </ul>
+                            </li>
+                            <li class="item9"><a href="#"><img class="arrow-img" src="images/f_menu.png" alt=""/>特色</a>
+                                <ul class="cute">
+                                    <li class="subitem1"><a href="#">纪念品 </a></li>
+                                    <li class="subitem2"><a href="#">限量版</a></li>
+                                    <li class="subitem3"><a href="#">私人订制 </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--initiate accordion-->
+                    <script>
+                        $(function() {
+                            var menu_ul = $('.menu > li > ul'),
+                                    menu_a  = $('.menu > li > a');
+                            menu_ul.hide();
+                            menu_a.click(function(e) {
+                                e.preventDefault();
+                                if(!$(this).hasClass('active')) {
+                                    menu_a.removeClass('active');
+                                    menu_ul.filter(':visible').slideUp('normal');
+                                    $(this).addClass('active').next().stop(true,true).slideDown('normal');
+                                } else {
+                                    $(this).removeClass('active');
+                                    $(this).next().stop(true,true).slideUp('normal');
+                                }
+                            });
+
+                        });
+                    </script>
+                </div>
+                <div class="delivery">
+                    <a href="javascript:;"><img src="images/himg.jpg" class="img-responsive" alt=""/></a>
+                    <h3>人气拍品</h3>
+                    <h4>诚拍品</h4>
+                </div>
+                <div class="twitter">
+                    <h3>最新留言和建议</h3>
+                    <ul class="twt1">
+                        <i class="twt"> </i>
+                        <li class="twt1_desc"><span class="m_1">总体还不错</span> 整个拍卖过程<span class="m_1"> 流程操作方便</span></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="twt1">
+                        <i class="twt"> </i>
+                        <li class="twt1_desc"><span class="m_1">种类尚未完善</span> 有些商品种类还没有提供拍卖 <span class="m_1">希望加多一个提醒</span></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="twt1">
+                        <i class="twt"> </i>
+                        <li class="twt1_desc"><span class="m_1">安全可靠</span> 加入的会员都是经过严格审核 <span class="m_1">不错</span></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+                <div class="clients">
+                    <h3>拍卖交易后的体验</h3>
+                    <h4>但我必须向你解释谴责快乐和痛苦大赞这一切错误的想法是如何诞生，该系统的完整账户，并阐述真理的伟大的探险家的实际教诲，并作为人类幸福的建设者。</h4>
+                    <ul class="user">
+                        <i class="user_icon"></i>
+                        <li class="user_desc"><a href="#"><p>会员：陈先森</p></a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 single_right">
+                <div class="single_top">
+                    <div class="single_grid">
+                        <div class="grid images_3_of_2">
+                            <ul id="etalage">
+                                <li>
+                                    <a href="optionallink.html">
+                                        <img class="etalage_thumb_image" src="images/s2.jpg" class="img-responsive" />
+                                        <img class="etalage_source_image" src="images/s2.jpg" class="img-responsive" title="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <img class="etalage_thumb_image" src="images/s2.jpg" class="img-responsive" />
+                                    <img class="etalage_source_image" src="images/s2.jpg" class="img-responsive" title="" />
+                                </li>
+                                <li>
+                                    <img class="etalage_thumb_image" src="images/s3.jpg" class="img-responsive"  />
+                                    <img class="etalage_source_image" src="images/s3.jpg"class="img-responsive"  />
+                                </li>
+                                <li>
+                                    <img class="etalage_thumb_image" src="images/s4.jpg" class="img-responsive"  />
+                                    <img class="etalage_source_image" src="images/s4.jpg"class="img-responsive"  />
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="desc1 span_3_of_2">
+                            <h1> 田云东《清风秀竹》136cm×68cm</h1>
+                            <p class="availability">状态: <span class="color">结束拍卖</span></p>
+                            <!--<p><img src="images/time.png" alt="" width="20px" height="20px"/><span class="time">00：03：03</span></p>-->
+                            <div class="price_single">
+
+                                <span class="actual">成交价格：&yen;470.00</span><a href="#record">查看出价记录</a>
+                            </div>
+                            <h2 class="quick">信息</h2>
+                            <p class="quick_desc">起拍价：¥66.66<br>
+                                拍价方式：升价拍<br>
+                                参与资格： 本次拍卖仅支持注册及以上级别会员参与</p>
+                            <div class="wish-list">
+                                <ul>
+                                    <li class="wish"><a href="#">加入收藏</a></li>
+                                    <span class="reducedfrom" style="font-size: small">&yen;设置提醒</span>
+                                </ul>
+                            </div>
+
+                            <div class="quantity_box">
+                                <ul class="product-qty">
+                                    <!--<span>输入您可以给出的价格</span>-->
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="price" class="price">输入您可以给出的价格</label>
+                                            <input type="price" class="form-control" id="price" placeholder="填写价格" disabled="disabled">
+                                        </div>
+                                    </form>
+                                </ul>
+                                <ul class="single_social">
+                                    <li><a href="#"><i class="fb1"> </i> </a></li>
+                                    <li><a href="#"><i class="tw1"> </i> </a></li>
+                                    <li><a href="#"><i class="g1"> </i> </a></li>
+                                    <li><a href="#"><i class="linked"> </i> </a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <a href="javascript:;" title="停止拍卖咯，无法提交您的请求" class="btn bt1 btn-primary btn-normal btn-inline " target="_self">停止出价</a>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="sap_tabs">
+                    <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                        <ul class="resp-tabs-list">
+                            <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>拍品介绍</span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-1" role="tab" id="record"><span>出价记录<span class="num">(5)</span></span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>历史拍品</span></li>
+                            <div class="clear"></div>
+                        </ul>
+                        <div class="resp-tabs-container">
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                                <div class="facts">
+                                    <ul class="tab_list">
+                                        <div class="roe">
+                                            <li><img src="images/d1.jpg" alt=""/></li>
+                                        </div>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                                <div class="facts">
+                                    <div class="tab_list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item active">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;商品名</div>
+                                                    <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;拍价情况</div>
+                                                    <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp;出价日期</div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item"><div class="row">
+                                                <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                                <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                                <div class="col-xs-6 col-md-4">2017/03/02</div>
+                                            </div></a>
+                                            <a href="#" class="list-group-item"><div class="row">
+                                                <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                                <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                                <div class="col-xs-6 col-md-4">2017/03/02</div>
+                                            </div></a>
+                                            <a href="#" class="list-group-item"><div class="row">
+                                                <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                                <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                                <div class="col-xs-6 col-md-4">2017/03/02</div>
+                                            </div></a>
+                                            <a href="#" class="list-group-item"><div class="row">
+                                                <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                                <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                                <div class="col-xs-6 col-md-4">2017/03/02</div>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+                                <div class="tab_list">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item active">
+                                            <div class="row">
+                                                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;商品名</div>
+                                                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-yen"></span>&nbsp;&nbsp;当前价格</div>
+                                                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;是否停拍</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item"><div class="row">
+                                            <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                            <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                            <div class="col-xs-6 col-md-4">进行中</div>
+                                        </div></a>
+                                        <a href="#" class="list-group-item"><div class="row">
+                                            <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                            <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                            <div class="col-xs-6 col-md-4">已停拍</div>
+                                        </div></a>
+                                        <a href="#" class="list-group-item"><div class="row">
+                                            <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                            <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                            <div class="col-xs-6 col-md-4">进行中</div>
+                                        </div></a>
+                                        <a href="#" class="list-group-item"><div class="row">
+                                            <div class="col-xs-6 col-md-4">蓝玉石</div>
+                                            <div class="col-xs-6 col-md-4">&yen;5000</div>
+                                            <div class="col-xs-6 col-md-4">进行中</div>
+                                        </div></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="single_head">相关产品</h3>
+                <div class="related_products">
+                    <div class="col-md-4 top_grid1-box1 top_grid2-box2"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p66.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>和田玉 白玉 手镯83.311g尺寸58.41mm</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>将开拍</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a></div>
+
+                    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p44.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>1.25ct蓝宝石镶0.06ct钻石戒指 意禄珠宝</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>拍卖中</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a></div>
+                    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p88.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>《江南水乡》 李锋 中国美术家协会会员，湖北美术学院教授、研究生导师</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>已结束</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a></div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="top_grid2">
+                    <div class="col-md-4 top_grid1-box1 top_grid2-box2"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p77.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>万林 《家和业美》 水墨重彩山水画精彩作品</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>将开拍</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a> </div>
+                    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p100.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>[9.8新]HERMES爱马仕女士100%SILK丝巾</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>拍卖中</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a></div>
+                    <div class="col-md-4 top_grid1-box1"><a href="single.html">
+                        <div class="grid_1">
+                            <div class="b-link-stroke b-animate-go  thickbox">
+                                <img src="images/p101.jpg" class="img-responsive" alt=""/> </div>
+                            <div class="grid_2">
+                                <p>【98成新已使用 】二手苹果6 全网4G 功能完好 灰色 64G内存 4.7寸屏 N357</p>
+                                <ul class="grid_2-bottom">
+                                    <li class="grid_2-left"><p><span>拍卖中</span>&nbsp;&nbsp;&yen;$99<small>.33</small></p><p><img src="images/time.png" alt="" width="20px" height="20px"/><span>00：03：03</span></p></li>
+                                    <li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">想了解</div></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </a></div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_bg">
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 f_grid1">
+            <h3>关于</h3>
+            <a href="#"><img src="images/logo2.png" alt=""/></a>
+            <p>忠诚可以简练地定义为对不可能的情况的一种不合逻辑的信仰。 —— 门肯</p>
+        </div>
+        <div class="col-md-3 f_grid1 f_grid2">
+            <h3>关注我们</h3>
+            <ul class="social">
+                <li><a href=""> <i class="fb"> </i><p class="m_3">QQ</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="tw"> </i><p class="m_3">微信</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="google"> </i><p class="m_3">微博</p><div class="clearfix"> </div></a></li>
+                <li><a href=""><i class="instagram"> </i><p class="m_3">qq空间</p><div class="clearfix"> </div></a></li>
+            </ul>
+        </div>
+        <div class="col-md-6 f_grid3">
+            <h3>联系方式</h3>
+            <ul class="list">
+                <li><p>手机客服 : (+86)18309876567</p></li>
+                <li><p>传真 : 0755-6785346</p></li>
+                <li><p>电子邮件 : <a href="mailto:120163077@qq.com"> 120163077@qq.com</a></p></li>
+            </ul>
+            <ul class="list1">
+                <li><p>我渴望随着命运指引的方向，心平气和地、没有争吵、悔恨、羡慕，笔直走完人生旅途。 —— 魏尔伦</p></li>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<div class="footer_bottom">
+    <div class="container">
+        <div class="cssmenu">
+            <ul>
+                <li class="active"><a href="login.html">隐私政策</a></li> .
+                <li><a href="checkout.html">服务条款</a></li> .
+                <li><a href="checkout.html">我的拍卖</a></li> .
+                <li><a href="login.html">联系我们</a></li> .
+                <li><a href="register.html">支持和常见问题解答</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Copyright &copy; 2017.<a target="_self" href="single.html">返回顶部</a></p>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!--<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>-->
+</body>
+</html>
